@@ -30,7 +30,6 @@ body {
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
-
 /* Header */
 .dashboard-header {
     display: flex;
@@ -39,13 +38,21 @@ body {
     margin-bottom: 30px;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 20px;
+    gap: 15px; /* Space between logo and actions */
 }
 
-.dashboard-header h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--text-dark);
-    margin: 0;
+/* Logo styling */
+.dashboard-header .logo {
+    height: 40px; /* Adjust logo height */
+    width: auto;  /* Keep aspect ratio */
+    display: block;
+}
+
+/* Smaller logo on mobile */
+@media (max-width: 600px) {
+    .dashboard-header .logo {
+        height: 32px;
+    }
 }
 
 .dashboard-header p {
@@ -58,7 +65,29 @@ body {
     display: flex;
     gap: 15px;
 }
+/* Group logo and title together */
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo and text */
+}
 
+/* Logo styling */
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+/* Title styling */
+.site-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    color: var(--text-dark);
+}
+.site-title {
+    color: var(--primary-color); 
+}
 .action-btn {
     padding: 12px 24px;
     border: none;
@@ -75,17 +104,6 @@ body {
 
 .action-btn i {
     font-size: 1.1rem;
-}
-
-.refresh-btn {
-    background-color: var(--secondary-color);
-    color: var(--text-dark);
-}
-
-.refresh-btn:hover {
-    background-color: #e2e8f0;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
 .add-btn {
