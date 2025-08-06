@@ -4,7 +4,7 @@
   🚀 A Modern, Responsive <strong>User Management Dashboard</strong> with Full CRUD, Search, and Pagination
 </p>
 
-<p>
+<p  align="center">
   <a href="https://ayesha-asadd.github.io/UserSphere-Dashboard/"><strong>🌐 Live Demo</strong></a> •
   <a href="https://github.com/Ayesha-Asadd/UserSphere-Dashboard"><strong>GitHub Repo</strong></a>
 </p>
