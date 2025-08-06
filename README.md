@@ -1,14 +1,10 @@
-<p align="center">
-  <img src="assets/logo.png" alt="UserSphere Logo" width="120">
-</p>
-
 <h1 align="center">UserSphere Dashboard</h1>
 
 <p align="center">
   🚀 A Modern, Responsive <strong>User Management Dashboard</strong> with Full CRUD, Search, and Pagination
 </p>
 
-<p align="center">
+<p>
   <a href="https://ayesha-asadd.github.io/UserSphere-Dashboard/"><strong>🌐 Live Demo</strong></a> •
   <a href="https://github.com/Ayesha-Asadd/UserSphere-Dashboard"><strong>GitHub Repo</strong></a>
 </p>
@@ -50,12 +46,14 @@ Try it now: **[UserSphere Dashboard Live](https://ayesha-asadd.github.io/UserSph
 
 ### Dashboard View
 <p align="center">
-  <img src="assets/dashboard.png" alt="UserSphere Dashboard View" width="900">
+<img width="1895" height="896" alt="Screenshot 2025-08-06 111511" src="https://github.com/user-attachments/assets/b19b2078-2951-482e-ac06-c184efeb0386" />
+
 </p>
 
 ### Add User Modal
 <p align="center">
-  <img src="assets/add-user.png" alt="UserSphere Add User Modal" width="600">
+<img width="1832" height="914" alt="Screenshot 2025-08-06 111524" src="https://github.com/user-attachments/assets/865c52ca-9e62-4776-8da7-32bb32687e7e" />
+
 </p>
 
 ---
@@ -123,7 +121,3 @@ This project is licensed under the **MIT License** — free to use and modify.
 👩‍💻 **Ayesha Asad**
 🔗 [GitHub Profile](https://github.com/Ayesha-Asadd)
 
-
-
-Do you want me to do that now?
-```
